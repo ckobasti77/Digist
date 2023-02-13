@@ -2,19 +2,17 @@ import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const CardDeal = () => (
+const CardDeal = ({ setOpenModal, openModal }) => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+      Digitalni marketing nije budućnost, <br className="sm:block hidden" /> već sadašnjost.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      Kod nas se ne fokusiramo samo na budućnost, već radimo na tome da vam pomognemo da iskoristite sve prednosti digitalnog marketinga u sadašnjosti. Iskoristite našu stručnost i iskustvo da biste brzo i efikasno osnažili svoj online prisustvom i postigli uspeh u industriji.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-10`} setOpenModal={setOpenModal} openModal={openModal} />
     </div>
 
     <div className={layout.sectionImg}>
