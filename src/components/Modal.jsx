@@ -8,7 +8,7 @@ const Modal = ({ setOpenModal, openModal }) => {
       className="background fixed top-0 left-0 right-0 bottom-0 w-[100%] h-[100%] modal-bg lg:py-[20vh] lg:px-[20vw] z-[9999] "
       style={{ display: openModal ? "block" : "none" }}
     >
-      <div className="lg:w-[60vw] lg:h-[60vh] bg-black rounded-2xl p-6 modal-box">
+      <div className="lg:w-[60vw] lg:h-[60vh] sm:mt-[75px] lg:mt-0 bg-black rounded-2xl p-6 modal-box">
         <div className="modal-header flex justify-between mb-6">
           <h1 className="text-white text-3xl font-poppins">Kontaktirajte nas</h1>
           <button

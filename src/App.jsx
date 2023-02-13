@@ -53,7 +53,7 @@ const App = () => {
       <div className="bg-primary w-full overflow-hidden">
         {loading && <Loader />}
         <StaticLoader />
-        <div className={`${styles.paddingX} ${styles.flexCenter} navbar`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} navbar fixed top-0 left-0 right-0 z-[999]`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>

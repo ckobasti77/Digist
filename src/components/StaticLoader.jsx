@@ -2,7 +2,7 @@ import React from "react";
 
 const StaticLoader = () => {
   return (
-    <div className="w-full bg-[#1C252C]">
+    <div className="w-full bg-[#1C252C] z-[9999]">
       <div className="static-loader sm:w-[100vw] lg:w-[66.66vw] mx-auto h-[100vh] bg-no-repeat bg-contain bg-[#1C252C] bg-center relative">
         <a
           href="#navbar"
