@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index}) => (
-  <div className={`flex flex-row p-6 w-[50%] rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
+  <div className={`flex flex-row p-6 w-[100%] lg:w-[50%] rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, index}) => (
 const Business = ({ setOpenModal, openModal }) =>  (
   <section id="features" className='flex flex-col'>
     <div className={layout.sectionInfo}>
-      <h2 className={`mb-24 mt-12 text-center ${styles.heading2}`}> 
+      <h2 className={`mb-24 mt-12 text-left lg:text-center ${styles.heading2}`}> 
       Prava odluka za vašu marketinšku strategiju 
       </h2>
     </div>
