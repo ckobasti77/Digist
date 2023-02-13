@@ -29,6 +29,7 @@ import share from "./share.png";
 import speaker from "./speaker.png";
 import influencer from "./influencer.png";
 import analytics from "./analytics.png";
+import bigLogoSmall from "./big-logo-small.png";
 
 export {
   airbnb,
@@ -62,4 +63,5 @@ export {
   speaker,
   influencer,
   analytics,
+  bigLogoSmall,
 };

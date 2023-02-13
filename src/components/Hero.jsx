@@ -25,7 +25,7 @@ const Hero = () => {
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Razvijamo personalizovanu marketing strategiju koja će uz internet oglašavanje i izgradnju Vašeg brenda na društvenim mrežama, 
-        dovesti do povećanja stepena konverzije i osigurati veliki broj poseta web sajtu ili internet prodavnici.
+        dovesti do povećanja stepena konverzije i osigurati veliki broj poseta Vašem hotelu, restoranu ili kafiću.
         </p>
       </div>
 

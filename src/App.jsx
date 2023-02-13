@@ -26,16 +26,8 @@ const App = () => {
     const timeoutID = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timeoutID);
   }, []);
-  
 
   const [showScrollToTop, setShowScrollToTop] = useState(false);
-
-  const scrollToTop = () => {
-    window.scroll({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
 
   useEffect(() => {
     const handleScroll = (e) => {
@@ -61,7 +53,7 @@ const App = () => {
       <div className="bg-primary w-full overflow-hidden">
         {loading && <Loader />}
         <StaticLoader />
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} navbar`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>
@@ -86,14 +78,14 @@ const App = () => {
           </div>
         </div>
       </div>
-      <button
+      <a
         className="text-[#05F6FF] fixed bottom-[1.5vw] right-[1.5vw] text-[2.5rem] border-none z-[9999]"
-        onClick={() => scrollToTop()}
         style={{ visibility: showScrollToTop ? "visible" : "hidden" }}
         title="Scroll To Top"
+        href="#navbar"
       >
         <BsFileArrowUp />
-      </button>
+      </a>
     </>
   );
 };
