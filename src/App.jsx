@@ -11,7 +11,7 @@ import {
   Testimonials,
   Hero,
   StaticLoader,
-  Loader
+  Loader,
 } from "./components";
 import { useState, useEffect } from "react";
 import Modal from "./components/Modal";
@@ -53,7 +53,9 @@ const App = () => {
       <div className="bg-primary w-full overflow-hidden">
         {loading && <Loader />}
         <StaticLoader />
-        <div className={`${styles.paddingX} ${styles.flexCenter} navbar fixed top-0 left-0 right-0 z-[999]`}>
+        <div
+          className={`${styles.paddingX} ${styles.flexCenter} navbar fixed top-0 left-0 right-0 z-[999]`}
+        >
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>
@@ -74,7 +76,7 @@ const App = () => {
             <Testimonials />
             {/* <Clients /> */}
             <Footer />
-            <Modal setOpenModal={setOpenModal} openModal={openModal}/>
+            <Modal setOpenModal={setOpenModal} openModal={openModal} />
           </div>
         </div>
       </div>
@@ -82,7 +84,7 @@ const App = () => {
         className="text-[#05F6FF] fixed bottom-[1.5vw] right-[1.5vw] text-[2.5rem] border-none z-[9999]"
         style={{ visibility: showScrollToTop ? "visible" : "hidden" }}
         title="Scroll To Top"
-        href="#navbar"
+        href="#hero"
       >
         <BsFileArrowUp />
       </a>
