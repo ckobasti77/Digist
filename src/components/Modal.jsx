@@ -5,7 +5,7 @@ import { close } from '../assets'
 const Modal = ({ setOpenModal, openModal }) => {
   return (
     <div
-      className="background fixed top-0 left-0 right-0 bottom-0 w-[100%] h-[100%] modal-bg lg:py-[20vh] lg:px-[20vw] z-[9999]"
+      className="background fixed top-[60px] lg:top-0 left-0 right-0 bottom-0 w-[100%] h-[100%] modal-bg lg:py-[20vh] lg:px-[20vw] z-[9999]"
       style={{ display: openModal ? "block" : "none" }}
     >
       <div className="lg:w-[60vw] lg:h-[60vh] sm:mt-[75px] lg:mt-0 bg-black rounded-2xl p-6 modal-box">
