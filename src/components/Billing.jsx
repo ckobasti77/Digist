@@ -1,7 +1,8 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
+import Button from "./Button";
 
-const Billing = () => (
+const Billing = ({ setOpenModal, openModal }) => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
@@ -19,6 +20,7 @@ const Billing = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Koristeći naše iskustvo i stručnost u digitalnom marketingu, pružamo vam potpunu podršku i personalizirane strategije za povećanje vaše online prisutnosti i dostizanje ciljane publike. Zajedno radimo na rastu vašeg biznisa.
       </p>
+      <Button styles={`mt-10`} setOpenModal={setOpenModal} openModal={openModal} />
       
     </div>
   </section>

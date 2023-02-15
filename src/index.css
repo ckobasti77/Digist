@@ -24,19 +24,18 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #1C252C;
+  background: #1c252c;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #05F6FF;
+  background: #05f6ff;
   border-radius: 100px;
-
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(5, 246, 255, .75);
+  background: rgba(5, 246, 255, 0.75);
 }
 
 .scrollToTop {
@@ -212,7 +211,8 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-box {
+.modal-box,
+.swiper-text {
   background: rgb(40, 50, 70);
   background: linear-gradient(
     135deg,
@@ -243,10 +243,8 @@
 }
 
 .social-media:nth-of-type(4):hover {
-  background-color: #0A66C2;
+  background-color: #0a66c2;
 }
-
-
 
 .static-loader {
   background-image: url("./assets/big-logo.png");
@@ -266,3 +264,18 @@
     height: 75px;
   }
 }
+
+.swiper-text {
+  transform: translateY(80%);
+}
+
+.swiper-card:hover .swiper-text {
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translateY(0);
+}
+
+.swiper-card:hover .swiper-text-arrow {
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: rotate(0);
+}
+

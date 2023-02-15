@@ -4,11 +4,7 @@ const Button = ({ styles, setOpenModal, openModal }) => {
   const toggleModal = () => {
     setOpenModal(!openModal)
   }
-
-  useEffect(() => {
-    console.log(openModal);
-  }, [openModal])
-
+  
   return (
     <button
       type="button"

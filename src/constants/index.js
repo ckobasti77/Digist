@@ -14,6 +14,10 @@ export const navLinks = [
     title: "O nama",
   },
   {
+    id: "team",
+    title: "Naš tim",
+  },
+  {
     id: "clients",
     title: "Klijenti",
   },

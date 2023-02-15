@@ -16,6 +16,7 @@ import {
 import { useState, useEffect } from "react";
 import Modal from "./components/Modal";
 import { BsChevronBarUp, BsFileArrowUp } from "react-icons/bs";
+import Employees from "./components/Employees";
 
 const App = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -70,11 +71,13 @@ const App = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Business setOpenModal={setOpenModal} openModal={openModal} />
-            <Billing />
+            <Billing setOpenModal={setOpenModal} openModal={openModal} />
             <CardDeal setOpenModal={setOpenModal} openModal={openModal} />
+            <div className="my-16">
+              <Employees />
+            </div>
             <CTA setOpenModal={setOpenModal} openModal={openModal} />
             <Testimonials />
-            {/* <Clients /> */}
             <Footer />
             <Modal setOpenModal={setOpenModal} openModal={openModal} />
           </div>
