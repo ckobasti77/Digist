@@ -1,4 +1,27 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, flag, writing, share, speaker, influencer, analytics  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  flag,
+  writing,
+  share,
+  speaker,
+  influencer,
+  analytics,
+  milos,
+  mihajlo,
+  ivan,
+  ker,
+  ljiljana
+} from "../assets";
 
 export const navLinks = [
   {
@@ -75,7 +98,7 @@ export const feedback = [
       "Od kad smo počeli da poslujemo sa vašom firmom, videli smo značajan rast u promociji naših proizvoda.",
     name: "Ljiljana Marković",
     title: "Osnivač i lider",
-    img: people01,
+    img: ljiljana,
   },
   {
     id: "feedback-2",
@@ -218,5 +241,44 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const employees = [
+  {
+    id: "employee-1",
+    img: milos,
+    title: "Founder & CEO",
+    text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
+  },
+  {
+    id: "employee-2",
+    img: milos,
+    title: "Head of Sales",
+    text: "Upoznajte našeg vodećeg prodavca, Uroša Babića, starog 29 godina. Uz impresivno iskustvo u prodaji, Uroš svojim timom donosi nova dostignuća i postiže izvanredne rezultate.",
+  },
+  {
+    id: "employee-1",
+    img: mihajlo,
+    title: "Team Manager",
+    text: "Predstavljamo vam našeg menadžera tima, Mihajla Đorđevića. Sa širokim spektrom vještina u vođenju timova i uspješnom karijerom u upravljanju projektima, Mihajlo je ključni igrač u postizanju ciljeva naše kompanije.",
+  },
+  {
+    id: "employee-1",
+    img: ivan,
+    title: "Data Analyst",
+    text: "Predstavljamo vam našeg vođu odeljenja za analizu podataka, Ivana Stosića. Svojim izuzetnim veštinama u analizi podataka i dugogodišnjim iskustvom u industriji, Ivan je ključni igrač u postizanju uspeha naše kompanije u korišćenju podataka za donošenje poslovnih odluka. Njegova stručnost u upravljanju podacima omogućava nam da razumemo naše tržište i klijente na dubljoj razini, što je ključno za uspešnost naših poslovnih strategija.",
+  },
+  {
+    id: "employee-1",
+    img: milos,
+    title: "Founder & CEO",
+    text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
+  },
+  {
+    id: "employee-1",
+    img: ker,
+    title: "Founder & CEO",
+    text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
   },
 ];

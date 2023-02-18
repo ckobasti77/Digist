@@ -30,9 +30,13 @@ import speaker from "./speaker.png";
 import influencer from "./influencer.png";
 import analytics from "./analytics.png";
 import bigLogoSmall from "./big-logo-small.png";
-import milos from "./milos.jpeg";
-import ker from "./ker.png";
 import arrow from "./arrow.png";
+import milos from "./milos.png";
+import ivan from "./ivan.png";
+import mihajlo from "./mihajlo.png";
+import ker from "./pas.png";
+
+import ljiljana from "./ljiljana.png";
 
 export {
   airbnb,
@@ -67,7 +71,10 @@ export {
   influencer,
   analytics,
   bigLogoSmall,
-  milos,
   arrow,
+  milos,
+  ivan,
+  mihajlo,
   ker,
+  ljiljana,
 };
