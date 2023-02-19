@@ -123,7 +123,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://m.facebook.com/106061759084642/",
+    link: "https://facebook.com/106061759084642/",
   },
   {
     id: "social-media-4",
