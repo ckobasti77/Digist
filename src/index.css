@@ -278,7 +278,7 @@
 }
 
 .swiper-text {
-  transform: translateY(80%);
+  transform: translateY(85%);
   transition: transform .5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
@@ -295,7 +295,7 @@
 }
 
 .card-not-hover {
-  transform: translateY(80%);
+  transform: translateY(85%);
 }
 
 .swiper-card:hover .swiper-text-arrow {
