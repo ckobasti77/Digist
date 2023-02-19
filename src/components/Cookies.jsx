@@ -3,14 +3,6 @@ import CookieConsent from "react-cookie-consent";
 
 const Cookies = ({ cookies, setCookies }) => {
   return (
-    // <div className="flex justify-between items-center rounded-full w-[70vw] text-white mx-auto">
-    //   <p>
-    //     Kompanija Digist koristi kolačiće u cilju poboljšanja, kako bi vam
-    //     pružila najbolje iskustvo na našoj veb stranici.
-    //   </p>
-    //   <button>Prihvati</button>
-    //   <button>Odbij</button>
-    // </div>
     <CookieConsent
       location="bottom"
       buttonText="Prihvatam"

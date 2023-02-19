@@ -1,32 +1,13 @@
-import React, { useState, useEffect } from "react";
-import { arrow, milos, ker, ivan, mihajlo } from "../assets";
+import React from "react";
+import { arrow } from "../assets";
 import { employees } from "../constants";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Controller } from "swiper";
+import { FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper";
 
 const Employees = () => {
-  const [smallScreen, setSmallScreen] = useState(false);
-
-  const mediaQueries = () => {
-    if (window.matchMedia("(max-width: 1024px").matches) {
-      setSmallScreen(true);
-    } else {
-      setSmallScreen(false);
-    }
-  };
-
-  useEffect(() => {
-    const mediaQueries = () => {
-      if (window.matchMedia("(max-width: 1024px").matches) {
-        setSmallScreen(true);
-      } else {
-        setSmallScreen(false);
-      }
-    };
-  }, [document.innerWidth]);
 
   return (
     <Swiper

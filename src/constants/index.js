@@ -4,7 +4,6 @@ import {
   facebook,
   instagram,
   linkedin,
-  twitter,
   flag,
   writing,
   share,
@@ -127,11 +126,6 @@ export const socialMedia = [
     link: "https://m.facebook.com/106061759084642/",
   },
   {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/company/digisteu/",
@@ -164,12 +158,6 @@ export const employees = [
     title: "Data Analyst",
     text: "Predstavljamo vam našeg vođu odeljenja za analizu podataka, Ivana Stosića. Svojim izuzetnim veštinama u analizi podataka i dugogodišnjim iskustvom u industriji, Ivan je ključni igrač u postizanju uspeha naše kompanije u korišćenju podataka za donošenje poslovnih odluka. Njegova stručnost u upravljanju podacima omogućava nam da razumemo naše tržište i klijente na dubljoj razini, što je ključno za uspešnost naših poslovnih strategija.",
   },
-  // {
-  //   id: "employee-1",
-  //   img: milos,
-  //   title: "Founder & CEO",
-  //   text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
-  // },
   {
     id: "employee-1",
     img: ker,

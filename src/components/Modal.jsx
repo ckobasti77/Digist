@@ -20,6 +20,8 @@ const Modal = ({ setOpenModal, openModal }) => {
         </div>
         <div className="modal-body">
           <form action="https://formsubmit.co/41d28150051587740a7e14d7b967106a" method="POST" className="font-poppins">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="http://www.digist.eu/"></input>
             <div className="relative z-0 w-full mb-6 group">
               <input
                 type="email"
@@ -122,6 +124,7 @@ const Modal = ({ setOpenModal, openModal }) => {
                   Vaša poruka
                 </label>
               </div>
+              <input type="hidden" name="_captcha" value="false"></input>
             <button
               type="submit"
               className="bg-blue-gradient text-black bg-[#05F6FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-[#05F6FF] dark:hover:bg-blue-700 dark:focus:ring-blue-800"
