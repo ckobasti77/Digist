@@ -19,11 +19,11 @@ const Modal = ({ setOpenModal, openModal }) => {
           </button>
         </div>
         <div className="modal-body">
-          <form action="https://formsubmit.co/jocikam738@gmail.com" method="POST" className="font-poppins">
+          <form action="https://formsubmit.co/41d28150051587740a7e14d7b967106a" method="POST" className="font-poppins">
             <div className="relative z-0 w-full mb-6 group">
               <input
                 type="email"
-                name="floating_email"
+                name="Email"
                 id="floating_email"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#05F6FF] focus:outline-none focus:ring-0 focus:border-[#05F6FF] peer"
                 placeholder=" "
@@ -41,14 +41,14 @@ const Modal = ({ setOpenModal, openModal }) => {
               <div className="relative z-0 w-full mb-6 group">
                 <input
                   type="text"
-                  name="floating_first_name"
-                  id="floating_first_name"
+                  name="First name"
+                  id="floating_message"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#05F6FF] focus:outline-none focus:ring-0 focus:border-[#05F6FF] peer"
                   placeholder=" "
                   required
                 />
                 <label
-                  htmlFor="floating_first_name"
+                  htmlFor="floating_message"
                   className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#05F6FF] peer-focus:dark:text-[#05F6FF] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Vaše ime
@@ -57,7 +57,7 @@ const Modal = ({ setOpenModal, openModal }) => {
               <div className="relative z-0 w-full mb-6 group">
                 <input
                   type="text"
-                  name="floating_last_name"
+                  name="Last name"
                   id="floating_last_name"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#05F6FF] focus:outline-none focus:ring-0 focus:border-[#05F6FF] peer"
                   placeholder=" "
@@ -75,7 +75,7 @@ const Modal = ({ setOpenModal, openModal }) => {
               <div className="relative z-0 w-full mb-6 group">
                 <input
                   type="text"
-                  name="floating_company"
+                  name="Company"
                   id="floating_company"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#05F6FF] focus:outline-none focus:ring-0 focus:border-[#05F6FF] peer"
                   placeholder=" "
@@ -92,7 +92,7 @@ const Modal = ({ setOpenModal, openModal }) => {
               <div className="relative z-0 w-full mb-6 group">
                 <input
                   type="tel"
-                  name="floating_phone"
+                  name="Phone"
                   id="floating_phone"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#05F6FF] focus:outline-none focus:ring-0 focus:border-[#05F6FF] peer"
                   placeholder=" "
@@ -109,14 +109,14 @@ const Modal = ({ setOpenModal, openModal }) => {
             <div className="relative z-0 w-full mb-6 group">
                 <textarea
                   type="text"
-                  name="floating_first_name"
-                  id="floating_first_name"
+                  name="Message"
+                  id="floating_message"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#05F6FF] focus:outline-none focus:ring-0 focus:border-[#05F6FF] peer"
                   placeholder=" "
                   required
                 />
                 <label
-                  for="floating_first_name"
+                  for="floating_message"
                   className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#05F6FF] peer-focus:dark:text-[#05F6FF] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Vaša poruka

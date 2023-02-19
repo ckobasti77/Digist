@@ -3,28 +3,33 @@ import {
   Billing,
   Business,
   CardDeal,
-  Clients,
   CTA,
   Footer,
   Navbar,
-  Stats,
   Testimonials,
   Hero,
   StaticLoader,
   Loader,
+  Modal,
+  Cookies,
+  Employees,
 } from "./components";
 import { useState, useEffect } from "react";
-import Modal from "./components/Modal";
-import { BsChevronBarUp, BsFileArrowUp } from "react-icons/bs";
-import Employees from "./components/Employees";
+import { BsFileArrowUp } from "react-icons/bs";
 
 const App = () => {
   const [openModal, setOpenModal] = useState(false);
 
   const [loading, setLoading] = useState(true);
+  const [cookies, setCookies] = useState(false)
 
   useEffect(() => {
     const timeoutID = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timeoutID);
+  }, []);
+
+  useEffect(() => {
+    const timeoutID = setTimeout(() => setCookies(true), 5000);
     return () => clearTimeout(timeoutID);
   }, []);
 
@@ -52,6 +57,7 @@ const App = () => {
   return (
     <>
       <div className="bg-primary w-full overflow-hidden">
+        {cookies && <Cookies cookies={cookies} setCookies={setCookies} />}
         {loading && <Loader />}
         <StaticLoader />
         <div

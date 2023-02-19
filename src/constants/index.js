@@ -1,15 +1,10 @@
 import {
-  people01,
   people02,
   people03,
   facebook,
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   flag,
   writing,
   share,
@@ -19,6 +14,7 @@ import {
   milos,
   mihajlo,
   ivan,
+  uros,
   ker,
   ljiljana
 } from "../assets";
@@ -104,7 +100,7 @@ export const feedback = [
     id: "feedback-2",
     content:
       "Pružate fantastičan servis i brze rezultate. Vaš tim je stručan i profesionalan, a vaše rešenje je inovativno.",
-    name: "Marko Živić",
+    name: "Dragan Jovanović",
     title: "Osnivač i lider",
     img: people02,
   },
@@ -112,95 +108,12 @@ export const feedback = [
     id: "feedback-3",
     content:
       "Zahvaljujući vašoj digitalnoj marketing strategiji, uspeli smo da privučemo više potencijalnih klijenata na našu web stranicu.",
-    name: "Darko Pančev",
+    name: "Darko Milosavljević",
     title: "Osnivač i lider",
     img: people03,
   },
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "Aktivni korisnici",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Poverenje kompanija",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Godine iskustva",
-    value: "7+",
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
 
 export const socialMedia = [
   {
@@ -211,7 +124,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://m.facebook.com/106061759084642/",
   },
   {
     id: "social-media-3",
@@ -221,28 +134,10 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/digisteu/",
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
 
 export const employees = [
   {
@@ -253,7 +148,7 @@ export const employees = [
   },
   {
     id: "employee-2",
-    img: milos,
+    img: uros,
     title: "Head of Sales",
     text: "Upoznajte našeg vodećeg prodavca, Uroša Babića, starog 29 godina. Uz impresivno iskustvo u prodaji, Uroš svojim timom donosi nova dostignuća i postiže izvanredne rezultate.",
   },
@@ -269,16 +164,16 @@ export const employees = [
     title: "Data Analyst",
     text: "Predstavljamo vam našeg vođu odeljenja za analizu podataka, Ivana Stosića. Svojim izuzetnim veštinama u analizi podataka i dugogodišnjim iskustvom u industriji, Ivan je ključni igrač u postizanju uspeha naše kompanije u korišćenju podataka za donošenje poslovnih odluka. Njegova stručnost u upravljanju podacima omogućava nam da razumemo naše tržište i klijente na dubljoj razini, što je ključno za uspešnost naših poslovnih strategija.",
   },
-  {
-    id: "employee-1",
-    img: milos,
-    title: "Founder & CEO",
-    text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
-  },
+  // {
+  //   id: "employee-1",
+  //   img: milos,
+  //   title: "Founder & CEO",
+  //   text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
+  // },
   {
     id: "employee-1",
     img: ker,
-    title: "Founder & CEO",
-    text: "Upoznajte Milosa: 26-godišnjeg vizionara koji ruši ustaljene standarde u marketing industriji svojim inovativnim idejama i beskompromisnim vođstvom kao osnivač i CEO naše startup kompanije.",
+    title: "Team Friend",
+    text: "Upoznajte našu vodeću osobu za slatkoću, Hanu, zlatnog retrivera. Sa svojim neodoljivim šarmom i razigranošću, Hana donosi radost i smijeh našem timu svakog dana.",
   },
 ];

@@ -10,6 +10,9 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import StaticLoader from "./StaticLoader";
 import Loader from "./Loader";
+import Modal from "./Modal";
+import Employees from "./Employees";
+import Cookies from "./Cookies";
 
 export {
   Navbar,
@@ -24,4 +27,7 @@ export {
   Hero,
   StaticLoader,
   Loader,
+  Modal,
+  Cookies,
+  Employees,
 };
