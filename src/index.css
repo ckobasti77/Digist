@@ -282,21 +282,24 @@
   transition: transform .5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.swiper-card, .swiper-text {
-  max-height: 370px;
-}
-
-.swiper-card:hover .swiper-text {
+.card-hover {
   transform: translateY(0);
 }
 
-.swiper-card:blur .swiper-text {
+.arrow-hover {
+  transform: rotate(0);
+}
+
+.arrow-not-hover {
+  transform: rotate(180deg);
+}
+
+.card-not-hover {
   transform: translateY(80%);
 }
 
 .swiper-card:hover .swiper-text-arrow {
   transition: transform .5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transform: rotate(0);
 }
 
 .cookies-container {

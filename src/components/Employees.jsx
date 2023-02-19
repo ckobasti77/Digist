@@ -1,14 +1,13 @@
-import React from "react";
-import { arrow } from "../assets";
+import React, { useState, useEffect } from "react";
 import { employees } from "../constants";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper";
+import SingleEmployee from "./SingleEmployee";
 
 const Employees = () => {
-
   return (
     <Swiper
       freeMode={true}
@@ -39,18 +38,7 @@ const Employees = () => {
       {employees.map((employee) => {
         return (
           <SwiperSlide className="relative swiper-card" key={employee.id}>
-            <img src={employee.img} alt="milos" className="rounded-xl" />
-            <div className="absolute bottom-0 w-full h-full text-white font-poppins text-[0.9rem] lg:text-[1.1rem] swiper-text rounded-xl px-4 py-2 overflow-hidden">
-              <button className="w-full">
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="mx-auto w-[48px] rotate-[180deg] swiper-text-arrow"
-                />
-              </button>
-              <h2 className="my-3 text-[#05F6FF] text-2xl">{employee.title}</h2>
-              <p>{employee.text}</p>
-            </div>
+            <SingleEmployee img={employee.img} title={employee.title} text={employee.text}/>
           </SwiperSlide>
         );
       })}
