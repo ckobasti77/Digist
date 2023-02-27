@@ -19,7 +19,7 @@ const Modal = ({ setOpenModal, openModal }) => {
           </button>
         </div>
         <div className="modal-body">
-          <form action="https://formsubmit.co/41d28150051587740a7e14d7b967106a" method="POST" className="font-poppins">
+          <form action="https://formsubmit.co/sales@thedigist.com" method="POST" className="font-poppins">
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="http://www.digist.eu/"></input>
             <div className="relative z-0 w-full mb-6 group">
