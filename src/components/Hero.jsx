@@ -15,17 +15,16 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Podignite svoje   <br className="sm:block hidden" />{" "}
+                Elevate Your  <br className="sm:block hidden" />{" "}
             <span className="text-gradient">online</span>{" "}
           </h1>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        prisustvo
+        presence
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Razvijamo personalizovanu marketing strategiju koja će uz internet oglašavanje i izgradnju Vašeg brenda na društvenim mrežama, 
-        dovesti do povećanja stepena konverzije i osigurati veliki broj poseta Vašem hotelu, restoranu ili kafiću.
+        We develop a personalized marketing strategy that, alongside internet advertising and building your brand on social media, will lead to an increase in conversion rates and ensure a large number of visits to your hotel, restaurant, or café.
         </p>
       </div>
 

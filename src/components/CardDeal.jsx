@@ -6,10 +6,10 @@ const CardDeal = ({ setOpenModal, openModal }) => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      Digitalni marketing nije budućnost, <br className="sm:block hidden" /> već sadašnjost.
+      Digital marketing is not the future, <br className="sm:block hidden" /> but the present.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Kod nas se ne fokusiramo samo na budućnost, već radimo na tome da vam pomognemo da iskoristite sve prednosti digitalnog marketinga u sadašnjosti. Iskoristite našu stručnost i iskustvo da biste brzo i efikasno osnažili svoj online prisustvom i postigli uspeh u industriji.
+      With us, the focus is not solely on the future; we work to help you leverage all the benefits of digital marketing in the present. Utilize our expertise and experience to quickly and efficiently strengthen your online presence and achieve success in the industry.
       </p>
 
       <Button styles={`mt-10`} setOpenModal={setOpenModal} openModal={openModal} />

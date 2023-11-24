@@ -13,10 +13,10 @@ const Billing = ({ setOpenModal, openModal }) => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      Pomažemo vam da rastete bolje
+      Helping You Grow Better
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Koristeći naše iskustvo i stručnost u digitalnom marketingu, pružamo vam potpunu podršku i personalizirane strategije za povećanje vaše online prisutnosti i dostizanje ciljane publike. Zajedno radimo na rastu vašeg biznisa.
+      Utilizing our experience and expertise in digital marketing, we provide you with full support and personalized strategies to enhance your online presence and reach your target audience. Together, we work towards the growth of your business.
       </p>
       <Button styles={`mt-10`} setOpenModal={setOpenModal} openModal={openModal} />
       

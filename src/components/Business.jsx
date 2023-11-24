@@ -22,7 +22,7 @@ const Business = ({ setOpenModal, openModal }) =>  (
   <section id="features" className='flex flex-col'>
     <div className={layout.sectionInfo}>
       <h2 className={`mb-24 mt-12 text-left lg:text-center ${styles.heading2}`}> 
-      Prava odluka za vašu marketinšku strategiju 
+      The Right Choice for Your Marketing Strategy
       </h2>
     </div>
 
